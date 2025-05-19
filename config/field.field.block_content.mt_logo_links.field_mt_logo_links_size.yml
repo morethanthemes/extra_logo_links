@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_logo_links
+    - field.storage.block_content.field_mt_logo_links_size
+  module:
+    - options
+id: block_content.mt_logo_links.field_mt_logo_links_size
+field_name: field_mt_logo_links_size
+entity_type: block_content
+bundle: mt_logo_links
+label: Size
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: mt-logo-links-default
+default_value_callback: ''
+settings: {  }
+field_type: list_string

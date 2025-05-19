@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_logo_links
+    - field.field.block_content.mt_logo_links.field_mt_logo_links_logo
+    - field.field.block_content.mt_logo_links.field_mt_logo_links_size
+  module:
+    - entity_reference_revisions
+    - options
+id: block_content.mt_logo_links.default
+targetEntityType: block_content
+bundle: mt_logo_links
+mode: default
+content:
+  field_mt_logo_links_logo:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_mt_logo_links_size:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

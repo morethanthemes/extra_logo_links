@@ -1,0 +1,13 @@
+name: 'Extra Logo Links'
+type: 'Site'
+description: "Generates configuration and sample content for the Logo Links block."
+install:
+  - block
+  - block_content
+  - paragraphs
+  - file
+  - image
+  - options
+  - text
+config: 
+  strict: false

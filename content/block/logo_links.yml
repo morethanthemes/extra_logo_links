@@ -1,0 +1,155 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 62116292-9199-4aaa-84b8-d74bf45c32cb
+  bundle: mt_logo_links
+  default_langcode: en
+  depends:
+    b06fe12b-dcb4-4b42-b8bf-6aad9fcebfb3: file
+    0659743f-8e1d-47c9-a7d5-184511a28db8: file
+    d2679521-d600-46f2-843b-7d091508cf10: file
+    ea8c05ae-b707-446a-9117-d317563c2afa: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Logo Links'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_mt_logo_links_logo:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3b51474c-c337-458f-8f52-0543c0e9c92e
+          bundle: mt_image_link
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1747215810
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_il_image:
+            -
+              entity: b06fe12b-dcb4-4b42-b8bf-6aad9fcebfb3
+              alt: 'logo one'
+              title: 'logo one'
+              width: 240
+              height: 240
+          field_mt_il_link:
+            -
+              uri: 'https://www.morethanthemes.com/store/bundles'
+              title: ''
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 14b7191e-9cc1-4f1c-bad3-3db9528ed266
+          bundle: mt_image_link
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1747215825
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_il_image:
+            -
+              entity: 0659743f-8e1d-47c9-a7d5-184511a28db8
+              alt: 'logo two'
+              title: 'logo two'
+              width: 240
+              height: 240
+          field_mt_il_link:
+            -
+              uri: 'https://www.morethanthemes.com/themes'
+              title: ''
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 35440ffc-e583-4cb3-b043-858e11c5af5c
+          bundle: mt_image_link
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1747215849
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_il_image:
+            -
+              entity: d2679521-d600-46f2-843b-7d091508cf10
+              alt: 'logo three'
+              title: 'logo three'
+              width: 240
+              height: 240
+          field_mt_il_link:
+            -
+              uri: 'https://www.morethanthemes.com/themes/flashyplus-business'
+              title: ''
+              options: {  }
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 61743821-2123-43db-8ad7-ea48ba8b540b
+          bundle: mt_image_link
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1747215870
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_mt_il_image:
+            -
+              entity: ea8c05ae-b707-446a-9117-d317563c2afa
+              alt: 'logo five'
+              title: 'logo five'
+              width: 240
+              height: 240
+  field_mt_logo_links_size:
+    -
+      value: mt-logo-links-default

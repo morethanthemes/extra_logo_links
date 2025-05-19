@@ -1,0 +1,9 @@
+{
+  "name": "morethanthemes/extra_logo_links",
+  "description": "Generates configuration and sample content for the Logo Links block.",
+  "type": "drupal-recipe",
+  "require": {
+    "drupal/core": "^10.4 || ^11",
+    "drupal/paragraphs": "^1.19"
+  }
+}

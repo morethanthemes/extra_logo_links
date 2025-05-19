@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0659743f-8e1d-47c9-a7d5-184511a28db8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: logo-2.png
+  uri:
+    -
+      value: 'public://custom-blocks/logo-2.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 19237
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1747215830
